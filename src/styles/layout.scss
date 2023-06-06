@@ -1,0 +1,55 @@
+main {
+    height: calc(100vh - 100px);
+}
+
+
+header {
+    background-color: #003d5b;
+    padding: 0 8px;
+    color: white;
+    height: 60px;
+    display: grid;
+    align-items: center;
+    grid-auto-flow: column;
+    justify-content: space-between;
+
+    .right-block {
+        display: grid;
+        grid-auto-flow: column;
+        gap: 32px;
+    }
+
+    .work-space {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .save-icon {
+        height: 30px;
+    }
+
+    .user-profile {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+
+        .user-icon {
+            border-radius: 50%;
+            border: 1px solid white;
+            padding: 4px;
+        }
+    }
+}
+
+
+
+footer {
+    background-color: #9BABB8;
+    height: 40px;
+    color: black;
+    display: grid;
+    align-items: center;
+    padding: 0 8px;
+    font-size: 11px;
+}

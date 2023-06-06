@@ -1,0 +1,30 @@
+.add-data {
+    display: grid;
+    overflow: auto;
+    align-items: start;
+    align-content: start;
+
+    table {
+        width: 100%;
+
+        tr {
+            border-bottom: 1px solid #4a4a4a;
+            display: grid;
+            grid-auto-flow: column;
+        }
+    }
+}
+
+.add-data-action {
+    padding: 8px;
+    display: grid;
+    justify-items: start;
+    gap: 4px;
+    background-color: #d8dddc;
+}
+
+.add-data-inputs {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 4px;
+}
